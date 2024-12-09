@@ -2,17 +2,17 @@ package com.projetono;
 
 public class Main {
     public static void main(String[] args) {
-        No no1 = new No("Conteúdo do Nó 1");
+        No<String> no1 = new No<>("Conteúdo do Nó 1");
 
-        No no2 = new No("Conteúdo do Nó 2");
+        No<String> no2 = new No<>("Conteúdo do Nó 2");
 
         no1.setProximoNo(no2);
 
-        No no3 = new No("Conteúdo do Nó 3");
+        No<String> no3 = new No<>("Conteúdo do Nó 3");
         
         no2.setProximoNo(no3);
 
-        No no4 = new No("Conteúdo do Nó 4");
+        No<String> no4 = new No<>("Conteúdo do Nó 4");
 
         no3.setProximoNo(no4);
 
